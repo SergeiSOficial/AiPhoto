@@ -9,7 +9,10 @@ sudo chmod +x *.sh
 ./setup.sh 
 eval "$(~/miniconda/bin/conda shell.zsh hook)" 
 conda init 
-cd ../ 
+cd DeOldify/
+conda env create -f environment.yml 
+conda activate deoldify 
+cd ../../
 git clone https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life.git 
 cd Bringing-Old-Photos-Back-to-Life 
 cd Face_Enhancement/models/networks/ 
@@ -46,6 +49,4 @@ pip install -r  requirements-colab.txt
 mkdir models 
 wget https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth -O ./models/ColorizeArtistic_gen.pth 
 wget https://www.dropbox.com/s/usf7uifrctqw9rl/ColorizeStable_gen.pth?dl=0 -O ./models/ColorizeStable_gen.pth 
-conda env create -f environment.yml 
-conda activate deoldify 
-cd ~
+cd ../../
