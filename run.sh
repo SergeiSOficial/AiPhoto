@@ -5,6 +5,5 @@ python run.py --input_folder ../input --output_folder ../output/BOPBTL/ --GPU -1
 cd ../GFPGAN
 python inference_gfpgan.py -i ../input -o ../output/GFPGAN/ -v 1.3 -s 2
 cd ../AutoDeOldifyLocal/DeOldify/
-conda activate deoldify 
 python RunColorizer.py --input_folder ../../input --GPU -1 --output_folder ../../output/DeOldify/ --artistic True
 cd ../../
