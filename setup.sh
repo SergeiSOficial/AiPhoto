@@ -1,5 +1,5 @@
 sudo apt-get update 
-sudo apt-get install curl git bzip2 unzip python3-tk python3-pip ffmpeg libsm6 libxext6 cmake -y 
+sudo apt-get install curl git bzip2 unzip python3-tk python3-pip ffmpeg libsm6 libxext6 cmake libcuda1-384 -y 
 mkdir input output 
 explorer.exe .
 git clone https://github.com/SergeiSOficial/AutoDeOldifyLocal.git 
