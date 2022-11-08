@@ -1,6 +1,13 @@
 # AiPhoto
 Scripts to restore old photos
 
+https://habr.com/ru/post/695962/
+https://youtu.be/KxfeA5hssps
+
+
+https://t.me/savkinsa/82
+https://t.me/savkinsa
+
 Using algorithms
 1. https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life
 2. https://github.com/TencentARC/GFPGAN
